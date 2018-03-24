@@ -1,0 +1,21 @@
+{
+  "name": "marielle.js",
+  "version": "1.0.0",
+  "description": "Marielle.js is an open source technology to detect and flag fake news around the brazilian web. #mariellepresente",
+  "main": "bin/www",
+  "scripts": {
+    "start": "node bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacaran.tech Team",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "client-sessions": "^0.8.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "path": "^0.12.7",
+    "sequelize": "^4.35.2"
+  }
+}
